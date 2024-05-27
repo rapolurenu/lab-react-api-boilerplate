@@ -1,0 +1,59 @@
+
+
+.book-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.book-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 80%;
+  padding: 20px 0;
+  margin: 20px 0;
+  border-bottom: 1px solid #ccc; 
+}
+
+.book-item:last-child {
+  border-bottom: none;
+}
+
+.book-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.book-left h2 {
+  margin: 0 0 10px 0;
+}
+
+.book-image {
+  max-width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.book-authors {
+  margin: 0;
+  font-weight: bold;
+}
+
+.book-right {
+  flex: 2;
+  text-align: left;
+}
+
+.book-item p {
+  margin: 0 0 10px 0;
+}
+
+.book-item p strong {
+  display: block;
+  margin-bottom: 5px;
+}
